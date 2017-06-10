@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "WSCollectionViewFlowLayout"
-s.version      = "0.0.1"
+s.version      = "0.0.2"
 s.summary      = "可替代UICollectionViewFlowLayout的标签流布局.实现了UICollectionViewDelegateFlowLayout协议方法.使用形式和系统Flowlayout相同."
 s.description  = <<-DESC
                     * 使用简单,和系统UICollectionViewFlowLayout无缝切换.
