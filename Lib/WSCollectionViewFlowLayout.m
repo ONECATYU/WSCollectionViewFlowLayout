@@ -160,7 +160,7 @@
 
 - (UIEdgeInsets)insetForSectionAtIndex:(NSInteger)section
 {
-    UIEdgeInsets inset = UIEdgeInsetsZero;
+    UIEdgeInsets inset = _sectionInset;
     if ([[self flowLayoutDelegate] respondsToSelector:@selector(collectionView:layout:insetForSectionAtIndex:)]) {
         inset = [[self flowLayoutDelegate] collectionView:self.collectionView layout:self insetForSectionAtIndex:section];
     }
